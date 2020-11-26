@@ -8,4 +8,8 @@ public class PrintZ {
         System.out.print("*****\n   *\n  *\n *\n***** ");
 
     }
+
+    public static class PrintAllprimes {
+
+    }
 }
