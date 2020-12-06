@@ -18,7 +18,6 @@ public class CeliandFloor {
 
         while(l<=h){
             int m = (l+h)/2;
-
             if (arr[m] < temp){
                 l = m + 1 ;
                 floor = arr[m];
