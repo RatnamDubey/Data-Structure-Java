@@ -17,10 +17,6 @@ public class HanoiTower {
 
     }
 
-
-
-
-
     public static void main (String args[]){
         System.out.println("Enter the value ");
         Scanner scn = new Scanner(System.in);

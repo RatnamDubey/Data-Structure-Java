@@ -18,9 +18,6 @@ public static int powercalc(int x , int n ){
     }
 
 
-
-
-
 public static void main (String args[]){
     long start = System.currentTimeMillis();
 // some time passes

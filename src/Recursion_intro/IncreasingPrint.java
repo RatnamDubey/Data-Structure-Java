@@ -4,16 +4,13 @@ import java.util.Scanner;
 
 public class IncreasingPrint {
 
-    public static void Acending(int n ){
-
-        if ( n-(n-1) > n ){
+    public static void Acending(int n ) {
+        if ( n == 0){
             return;
         }
+        Acending(n -1);
+        System.out.println(n);
 
-        else{
-            System.out.println(n-(n-1));
-            Acending(n-n-1);
-        }
     }
 
 
@@ -22,8 +19,6 @@ public class IncreasingPrint {
         Scanner scn = new Scanner(System.in);
 
         int n = scn.nextInt();
-        Acending(n );
-
-
+        Acending(n);
     }
 }
