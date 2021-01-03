@@ -8,7 +8,6 @@ public class maxofarray {
         if ( idx == arr.length -1){
             return arr[idx];
         }
-
         int maxa = maxarr(arr , idx + 1);
         if ( arr[idx] > maxa){
             return arr[idx];
@@ -17,7 +16,6 @@ public class maxofarray {
             return maxa;
         }
     }
-
 
 
     public static void main (String args[]){

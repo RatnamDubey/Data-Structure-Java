@@ -8,12 +8,11 @@ public class reversedisplay {
         if ( val == 0 ){
             return;
         }
-
         System.out.println(arr[val-1]);
         revdis(arr, val-1);
 
-
     }
+
 
     public static void main (String args[]){
         System.out.println("Enter the size of an array");
