@@ -2,7 +2,7 @@ package Functionandarrays;
 
 import java.util.Scanner;
 
-public class DigitFrequency {
+public class    DigitFrequency {
     public static int repeat_num (int x , int y) {
         int rv = 0;
         while (x > 0){
